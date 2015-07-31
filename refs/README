@@ -1,0 +1,6 @@
+make_highlight_genes.sh needs a copy of the knownGene and kgXref tables from UCSC. Download eg as:
+
+curl -O http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/kgXref.txt.gz
+
+to the refs subdir or set the path in make_highlight_genes.sh KGXREF and KNOWNGENE accordingly.
+Or link from the refs subdir.
