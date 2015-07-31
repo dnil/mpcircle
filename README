@@ -1,27 +1,27 @@
 mpcircle
+========
 
 Circos plots from MP sequencing data.
+-------------------------------------
 
-Daniel Nilsson
-
-2015
+By Daniel Nilsson, 2015
 
 Available under the perl Artistic License.
 
 
-** Usage
-       plot_all.sh [prefix] [template_circos_config]
+Usage
+-----
+`plot_all.sh [prefix] [template_circos_config]`
 
 Default is to attempt plots for all files in the respecive driving data dirs (CNVnator output, variation tabs, and ROI-files).
 
 See the data subdirs for some more details on expected data and its format.
 
-** Installation
+Installation
+------------
 
 Needs a copy of the kgXref and knownGene tables from UCSC. Download eg as:
 
-curl -O http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/kgXref.txt.gz
+`curl -O http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/kgXref.txt.gz`
 
 to the refs subdir or set the path in KGXREF  and KNOWNGENE accordingly. Or link from the refs subdir.
-
-
