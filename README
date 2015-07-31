@@ -14,6 +14,8 @@ Available under the perl Artistic License.
 
 Default is to attempt plots for all files in the respecive driving data dirs (CNVnator output, variation tabs, and ROI-files).
 
+See the data subdirs for some more details on expected data and its format.
+
 ** Installation
 
 Needs a copy of the kgXref and knownGene tables from UCSC. Download eg as:
